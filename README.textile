@@ -1,11 +1,11 @@
 h1. Theme For Rails (3 and hopefully later)
 
-h2. Features list 
+h2. Features list
 
-* Support for adding themes which includes stylesheets, javascripts, views and layouts. 
+* Support for adding themes which includes stylesheets, javascripts, views and layouts.
 * add a theme-image-url sass helper method for asset pipeline based themes
 * update the generators and rake tasks to support asset pipeline based themes
-* (NEW) works with the Rails Assets Pipeline without interfering, and leveraging it.   
+* (NEW) works with the Rails Assets Pipeline without interfering, and leveraging it.
 
 h2. Compatibility
 
@@ -19,10 +19,10 @@ h2. Documentation
 
 h2. Ideas / Inspiration
 
-* Add ThemesForRails::Railtie for configuration, so we selectively set the plugin on or off. Also to be able to change several settings. 
+* Add ThemesForRails::Railtie for configuration, so we selectively set the plugin on or off. Also to be able to change several settings.
 * -Add routes to allow access to the theme's static resources (js and cs), unless cached on public folder by capistrano / rake.-
 * -Extend Action View path in order to make the views accessible. Same for the layouts.-
-* More tests ford edge cases. Now I am only testing the happy paths. 
+* More tests ford edge cases. Now I am only testing the happy paths.
 
 h2. Rails 2 Support
 
@@ -48,6 +48,6 @@ h2. Authors and contributors
 
 h2. Last but not least
 
-If you are using this gem, please, take a minute to recommend me at Working With Rails. 
+If you are using this gem, please, take a minute to recommend me at Working With Rails.
 
 <a href="http://www.workingwithrails.com/recommendation/new/person/7277-lucas-florio"><img alt="Recommend Me" src="http://workingwithrails.com/images/tools/compact-small.jpg" /></a>
